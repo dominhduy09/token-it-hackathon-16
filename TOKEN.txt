@@ -1,0 +1,37 @@
+- Unknown Token
+
+Wrote new keypair to ~/my-keypair.json
+==========================================================================
+pubkey: dNLkvccWUW7gwbWLfmTC6BiQfiLu3eimutAVXtcSxDX
+==========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+transfer east column renew chat bench ugly fetch sunset move office velvet
+==========================================================================
+
+My addrs: 8LuqyU2B6umKuTNpyNDVZkGM6vRZyyr3KZtrQqBA7gVn
+
+
+Token address: FLxTNvpUaWSoashy9NDXT3XjScMsqVExcJszv22q3x37 under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Token account: J9cX4oj9Z5ehAMvYTuoj9jE35BPunMYGuBScreFgEZHK
+
+---
+
+solana-keygen verify dNLkvccWUW7gwbWLfmTC6BiQfiLu3eimutAVXtcSxDX ~/my-keypair.json
+
+spl-token mint FLxTNvpUaWSoashy9NDXT3XjScMsqVExcJszv22q3x37 1000000000
+
+spl-token transfer --fund-recipient FLxTNvpUaWSoashy9NDXT3XjScMsqVExcJszv22q3x37 50 8LuqyU2B6umKuTNpyNDVZkGM6vRZyyr3KZtrQqBA7gVn --allow-unfunded-recipient
+
+spl-token update-metadata niceG6oxHmPcXVdNaUoECzWXn8Jz8fA5Q99QauJ4Gun \
+uri https://bafybeidfm65jzvz4zeesxp6ybinkitvpd27klk6yspstrtw5fuy5w27lkq.ipfs.w3s.link/metadata.json
+
+~~~
+
+- Super Token
+
+sup8f9ysPYSLok6zpGh8f8ADHVx17p9GuH7dLiuaBN7
+key4yNTDCvDYLnHKvboQ9YF1DLAjSWusQrLQiiZAVPQ
+
+https://bafybeiamnbh5yrtbv4ppian2cvg54c363267vn3hio2gzlpygpr3jmctoq.ipfs.w3s.link/metadata.json
+
